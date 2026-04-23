@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>A Special Invitation For You 💌</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Dancing+Script:wght@400;600;700&family=Lato:wght@300;400&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- Floating particles (always visible) -->
+  <div class="particles" id="particles"></div>
+
+  <!-- Navigation dots -->
+  <nav class="page-nav" id="pageNav" aria-label="Page navigation">
+    <button class="nav-dot active" data-page="0" aria-label="Page 1"></button>
+    <button class="nav-dot" data-page="1" aria-label="Page 2"></button>
+    <button class="nav-dot" data-page="2" aria-label="Page 3"></button>
+    <button class="nav-dot" data-page="3" aria-label="Page 4"></button>
+    <button class="nav-dot" data-page="4" aria-label="Page 5"></button>
+    <button class="nav-dot" data-page="5" aria-label="Page 6"></button>
+  </nav>
+
+  <!-- Arrow navigation -->
+  <button class="arrow-btn arrow-prev" id="arrowPrev" aria-label="Previous page">&#8679;</button>
+  <button class="arrow-btn arrow-next" id="arrowNext" aria-label="Next page">&#8681;</button>
+
+  <!-- ===================== SLIDE CONTAINER ===================== -->
+  <div class="slides-container" id="slidesContainer">
+
+    <!-- PAGE 1 · Envelope -->
+    <div class="slide slide-envelope" id="slide0">
+      <div class="envelope-wrapper">
+        <div class="envelope" id="envelope">
+          <div class="envelope-flap"></div>
+          <div class="envelope-body">
+            <div class="envelope-heart">💌</div>
+            <p class="envelope-hint">Tap to open your letter...</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PAGE 2 · Hero -->
+    <div class="slide slide-hero" id="slide1">
+      <div class="rose-bg"></div>
+      <div class="hero-content">
+        <div class="tag-line">✦ A Special Invitation ✦</div>
+        <h1 class="hero-title">Will You<br /><span class="italic-accent">Go On A Date</span><br />With Me?</h1>
+        <div class="divider">
+          <span class="divider-line"></span>
+          <span class="divider-icon">🌹</span>
+          <span class="divider-line"></span>
+        </div>
+        <p class="hero-sub">Haluuuuu <span class="name" id="girlfriendName">Sayang</span>,<br />
+          Finally our first meet!!!<br />Tak sabar nya nak jumpa you sayang, you excited tak?</p>
+      </div>
+    </div>
+
+    <!-- PAGE 3 · Details -->
+    <div class="slide slide-details" id="slide2">
+      <div class="section-label">✦ Details of the Evening ✦</div>
+      <div class="cards-grid">
+        <div class="detail-card">
+          <div class="card-icon">📅</div>
+          <div class="card-label">Date</div>
+          <div class="card-value" id="dateValue">Saturday, 9th May 2026</div>
+        </div>
+        <div class="detail-card">
+          <div class="card-icon">⏰</div>
+          <div class="card-label">Time</div>
+          <div class="card-value" id="timeValue">12.00 pm<br /><small>I gerak pukul 10 so maybe around 12 to 1</small>
+          </div>
+        </div>
+        <div class="detail-card">
+          <div class="card-icon">📍</div>
+          <div class="card-label">Place</div>
+          <div class="card-value" id="placeValue">A Very Special Spot<br /><small>To Be Revealed Soon 😊</small></div>
+        </div>
+        <div class="detail-card">
+          <div class="card-icon">👗</div>
+          <div class="card-label">Dress Code</div>
+          <div class="card-value" id="dressValue">you pakai apa apa pon cantik sayang 💕<br /><small>i pakai navy blue
+              shirt with white pants</small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PAGE 4 · Love Letter -->
+    <div class="slide slide-letter" id="slide3">
+      <div class="letter-paper">
+        <div class="letter-corner tl"></div>
+        <div class="letter-corner tr"></div>
+        <div class="letter-corner bl"></div>
+        <div class="letter-corner br"></div>
+        <div class="letter-heading">Dear my princess (puteri),</div>
+        <p class="letter-body" id="loveMessage">
+          Happy Birthday Sayang ❤️. Finally you are already 23 years old! Ingat sikit you tu dah tua AHAHAHAHAHAH even
+          muka you nampak muda, gurau je tau you 👉🏻👈🏻. thank you
+        </p>
+        <p class="letter-body">
+          setelah kesekian kalinya i ajak you keluar, and direject banyak kali 🥹. so harap harap kalini you terima lah
+          ye.🌹
+        </p>
+        <div class="letter-sign">
+          orang yang selalu geram dengan u,<br />
+          <span class="sign-name" id="senderName">Your Person 💕</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- PAGE 5 · Countdown -->
+    <div class="slide slide-countdown" id="slide4">
+      <div class="section-label">✦ Counting Down to Our Date ✦</div>
+      <div class="countdown" id="countdown">
+        <div class="count-box">
+          <div class="count-num" id="days">00</div>
+          <div class="count-label">Days</div>
+        </div>
+        <div class="count-sep">:</div>
+        <div class="count-box">
+          <div class="count-num" id="hours">00</div>
+          <div class="count-label">Hours</div>
+        </div>
+        <div class="count-sep">:</div>
+        <div class="count-box">
+          <div class="count-num" id="minutes">00</div>
+          <div class="count-label">Minutes</div>
+        </div>
+        <div class="count-sep">:</div>
+        <div class="count-box">
+          <div class="count-num" id="seconds">00</div>
+          <div class="count-label">Seconds</div>
+        </div>
+      </div>
+      <p class="countdown-sub">Can't wait to see you 🥰</p>
+    </div>
+
+    <!-- PAGE 6 · RSVP -->
+    <div class="slide slide-rsvp" id="slide5">
+      <div class="section-label">✦ Your Answer ✦</div>
+      <p class="rsvp-question">So... what do you say? 🥺</p>
+      <div class="rsvp-buttons" id="rsvpButtons">
+        <button class="btn-yes" id="btnYes" onclick="handleYes()">Yes, of course! 💕</button>
+        <button class="btn-no" id="btnNo" onmouseenter="runAway()" onclick="handleNo()">Maybe not... 😅</button>
+      </div>
+      <div class="rsvp-response hidden" id="rsvpResponse">
+        <div class="response-emoji" id="responseEmoji">🎉</div>
+        <div class="response-text" id="responseText">Yay!! I can't wait!! 💕</div>
+        <div class="confetti-area" id="confettiArea"></div>
+      </div>
+      <footer class="footer-inline">
+        <div class="footer-hearts">💕 Made with love 💕</div>
+        <div class="footer-sub">Just for you, always.</div>
+      </footer>
+    </div>
+
+  </div><!-- /slides-container -->
+
+  <script src="script.js"></script>
+</body>
+
+</html>
