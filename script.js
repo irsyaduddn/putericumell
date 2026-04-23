@@ -10,7 +10,7 @@ const CONFIG = {
   placeDisplay: "A Very Special Spot",
   dressDisplay: "u pakai apa apa pon cantik sayang💕",
   loveMessage: `Happy Birthday Sayang ❤️. Finally you are already 23 years old! Ingat sikit you tu dah tua AHAHAHAHAHAH even
-          muka you nampak muda, gurau je tau you 👉🏻👈🏻. You still cantik,lawa,cumel semualah di mata i. Macam yang you dah tau, i dah lama minat kat you tauuu, so thank you sudi terima i🫶🏻. Actually bila you terima i haritu, i macam tak percaya tauuu, like aaaaaaaa, i rasa bahagia sangat sangat. Thank you for being the happiness of my life. I love you SAYANGGG muahhhhh 😘`,
+          muka you nampak muda, gurau je tau you 👉🏻👈🏻. You still cantik,lawa,cumel semualah di mata i. Macam yang you dah tau, i dah lama minat kat you tauuu, so thank you sudi terima i🫶🏻. Actually bila you terima i haritu, i macam tak percaya tauuu, like aaaaaaaa, i rasa bahagia sangat sangat. Thank you for being the happiness of my life. I LOVE YOU SAYANGGG muahhhhh 😘`,
 };
 
 // =============================================
