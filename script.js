@@ -216,11 +216,11 @@ const btnNo = document.getElementById("btnNo");
 const isMobile = () => window.matchMedia("(pointer: coarse)").matches;
 
 const mobileNoLabels = [
-  "Are you sure? 🥺",
-  "Please think again... 😢",
-  "Really?? 💔",
-  "Last chance! 🙏",
-  "Okay fine... 😭"
+  "ooo berani eh you? tekan aa lagi 😡",
+  "WHATTT YOU TEKAN LAGI? NAK KENE CUBIT DIA NI",
+  "sampai hati you💔, you tak sayang i ke?🥹",
+  "Last warning tau ni, siap you nanti!",
+  "wekkk you tetap kene setuju jugak"
 ];
 
 // Desktop hover: button flies away
