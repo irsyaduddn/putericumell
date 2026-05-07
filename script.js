@@ -20,7 +20,7 @@ document.getElementById("girlfriendName").textContent = CONFIG.girlfriendName;
 document.getElementById("senderName").textContent = CONFIG.senderName;
 document.getElementById("dateValue").textContent = CONFIG.dateDisplay;
 document.getElementById("timeValue").innerHTML = CONFIG.timeDisplay + `<br/><small>I gerak pukul 10 so maybe around 12 to 1</small>`;
-document.getElementById("dressValue").innerHTML = CONFIG.dressDisplay + `<br/><small>i pakai navy blue shirt with white pants</small>`;
+document.getElementById("dressValue").innerHTML = CONFIG.dressDisplay + `<br/><small>i pakai navy blue</small>`;
 document.getElementById("placeValue").innerHTML = CONFIG.placeDisplay + `<br/><small>jeng jeng jeng rahsia 😊</small>`;
 document.getElementById("loveMessage").textContent = CONFIG.loveMessage;
 
